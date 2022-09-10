@@ -26,4 +26,8 @@ jobs:
       run: |
         npm install
         npx webpack
-        cp -r pages docs
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: './pages'
