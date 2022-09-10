@@ -1,6 +1,8 @@
 Minimal MUI Boilerplate
 =====
 
+GitHub Pages - https://liliumu.github.io/minimal-mui/
+
 ## 使い方
 
 ```
