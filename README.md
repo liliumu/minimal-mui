@@ -1,22 +1,24 @@
-Minimal MUI Boilerplate
+MUI minimal boilerplate
 =====
 
-GitHub Pages - https://liliumu.github.io/minimal-mui/
-
-## 使い方
+## Usage
 
 ```
 npm install
 npm run build # npx webpack
 ```
 
-## 背景
+GitHub Pages --> https://liliumu.github.io/minimal-mui/
+
+## Background
 
 - React と MUI を使いたい
-- `npm init -y` から作り始めたい
-- 必要なものは導入したいが (便利という理由だけで) 不必要なものを導入したくない
+- 必要とされているツール (TypeScript, ESLint, Prettier) は導入すべき
+- しかし便利という理由だけで不必要なツールは導入したくなく `npm init -y` から作りはじめて動かしたい
+- 公式チュートリアルは ↑ を想定しておらず CRA や Next.js を前提としているので試行錯誤があった
+- やりたいことができた & 動いたので完成とした
 
-## 構成
+## Structure
 
 - Node.js v16.x
 
@@ -32,7 +34,7 @@ npm run build # npx webpack
 └── webpack.config.js
 ```
 
-## `package.json` について
+## `package.json`
 
 ### dependencies
 
