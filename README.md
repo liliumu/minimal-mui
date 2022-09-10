@@ -18,7 +18,7 @@ npm run build # npx webpack
 
 ## 構成
 
-- Node.js v18.7.0
+- Node.js v16.x
 
 ```
 .
